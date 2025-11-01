@@ -8,7 +8,7 @@ It allows users to log in using stored credentials (`Username` and `Password`) f
 
 ## 📁 Project Structure
 
-LoginApp/
+```LoginApp/
 ├─ README.md
 ├─ src/
 │ └─ LoginApp.java
@@ -20,7 +20,7 @@ LoginApp/
 │ ├─ hsqldb-2.5.0.jar
 │ └─ jackcess-3.0.1.jar
 └─ LoginDB.accdb
-
+```
 
 ## ▶️ How to Compile and Run (Manual Way)
 
@@ -44,7 +44,7 @@ ID	Username	Password
 2	  student	  pass123
 
 
-🧩 Notes
+## 🧩 Notes
 
 • If you move this project folder, update the dbURL path in your Java file.
 
@@ -53,6 +53,9 @@ ID	Username	Password
 • If you want to add more users, open LoginDB.accdb in MS Access and insert new records into the Users table.
 
 Language: Java
+
 Database: Microsoft Access
+
 Driver: UCanAccess 5.0.1
+
 
