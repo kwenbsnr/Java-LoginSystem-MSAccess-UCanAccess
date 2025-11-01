@@ -10,16 +10,38 @@ It allows users to log in using stored credentials (`Username` and `Password`) f
 
 ```
 LoginApp/
-├─ README.md
+│
+├─ .vscode/
+│  ├─ launch.json
+│  └─ settings.json
+│
 ├─ src/
-│ └─ LoginApp.java
+│  ├─ LoginApp.java
+│
 ├─ UCanAccess-5.0.1.bin/
-│ ├─ ucanaccess-5.0.1.jar
-│ └─ lib/
-│ ├─ commons-lang3-3.8.1.jar
-│ ├─ commons-logging-1.2.jar
-│ ├─ hsqldb-2.5.0.jar
-│ └─ jackcess-3.0.1.jar
+│  │
+│  ├─ lib/
+│  │  ├─ commons-lang3-3.8.1.jar
+│  │  ├─ commons-logging-1.2.jar
+│  │  ├─ hsqldb-2.5.0.jar
+│  │  └─ jackcess-3.0.1.jar
+│  │
+│  ├─ licenses/
+│  │  ├─ apache-license-2.0.txt
+│  │  ├─ hsqldb_lic.txt
+│  │  ├─ hypersonic_lic.txt
+│  │  ├─ lgpl-2.1.txt
+│  │  └─ licenses.txt
+│  │
+│  ├─ loader/
+│  │  └─ ucanload.jar
+│  │
+│  ├─ console.bat
+│  ├─ console.sh
+│  ├─ copyright.txt
+│  ├─ ucanaccess-5.0.1.jar
+│  └─ version.txt
+│
 └─ LoginDB.accdb
 ```
 
@@ -30,10 +52,10 @@ Navigate to the src folder:
   cd "C:\Users\USER\Documents\EVENT DRIVEN SOURCE CODES\LoginApp\src"
 
 Step 2: Compile
-  ```javac -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*" LoginApp.java```
+  ``javac -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*" LoginApp.java``
 
 Step 3: Run
-  ```java -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;." LoginApp```
+  `java -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;." LoginApp`
 
 
 ## 🗃️ Database Information
@@ -63,6 +85,7 @@ Language: Java
 Database: Microsoft Access
 
 Driver: UCanAccess 5.0.1
+
 
 
 
