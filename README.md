@@ -1,12 +1,12 @@
 # 🖥️ Java Login System Using MS Access
 
-This project is a simple **Java-based login system** that connects to a **Microsoft Access database** using the **UCanAccess JDBC driver**.  
-It allows users to log in using stored credentials (`Username` and `Password`) from an Access `.accdb` file.
+This project is a simple **Java-based user login and registration** that connects to a **Microsoft Access database** using the **UCanAccess driver**.  
+It allows users to **log in using stored credentials (`Username` and `Password`)** from the Access database, and also provides a separate program to **add new accounts** directly through Java.  
 
 ---
 
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 LoginApp/
@@ -17,6 +17,7 @@ LoginApp/
 │
 ├─ src/
 │  ├─ LoginApp.java
+│  └─ AddNewAccount.java
 │
 ├─ UCanAccess-5.0.1.bin/
 │  │
@@ -49,14 +50,16 @@ LoginApp/
 
 Step 1: Open Terminal
 Navigate to the src folder:
-  cd "C:\Users\USER\Documents\EVENT DRIVEN SOURCE CODES\LoginApp\src"
+  `cd "C:\Users\USER\Documents\EVENT DRIVEN SOURCE CODES\LoginApp\src"`
 
-Step 2: Compile
-  ``javac -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*" LoginApp.java``
+Step 2: Compile Java Files
+  ``javac -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*" LoginApp.java AddNewAccount.java``
 
-Step 3: Run
+Step 3: Run Login Program
   `java -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;." LoginApp`
 
+Step 4: Run Add-New-User Program
+  `java -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;." AddNewAccount`
 
 ## 🗃️ Database Information
 
@@ -70,21 +73,31 @@ Table name: Users
 
 2	    student	    pass123
 
+3     newuser    newuser123     
+
+4     kwen      kwen123
 
 ## 🧩 Notes
 
-• If you move this project folder, update the dbURL path in your Java file.
+• If you move this project folder, update the dbURL path in your .java files.
 
 • Do not delete or move the UCanAccess-5.0.1.bin folder.
 
-• If you want to add more users, open LoginDB.accdb in MS Access and insert new records into the Users table.
+• To add more users manually, open LoginDB.accdb in MS Access and insert rows into the Users table.
 
+• To add users through Java, run the AddNewAccount.java program.
+
+
+⚙️ Environment Setup
 
 Language: Java
 
-Database: Microsoft Access
+Database: Microsoft Access (.accdb)
 
 Driver: UCanAccess 5.0.1
+
+IDE: Visual Studio Code
+
 
 
 
