@@ -5,6 +5,7 @@ It allows users to log in using stored credentials (`Username` and `Password`) f
 
 ---
 
+
 ## 📁 Project Structure
 
 LoginApp/
@@ -20,6 +21,7 @@ LoginApp/
 │ └─ jackcess-3.0.1.jar
 └─ LoginDB.accdb
 
+
 ## ▶️ How to Compile and Run (Manual Way)
 
 Step 1: Open Terminal
@@ -32,6 +34,7 @@ Step 2: Compile
 Step 3: Run
   java -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;." LoginApp
 
+
 ## 🗃️ Database Information
 
 Database name: LoginDB.accdb
@@ -40,11 +43,16 @@ ID	Username	Password
 1	  admin	    admin123
 2	  student	  pass123
 
+
 🧩 Notes
+
 • If you move this project folder, update the dbURL path in your Java file.
+
 • Do not delete or move the UCanAccess-5.0.1.bin folder.
+
 • If you want to add more users, open LoginDB.accdb in MS Access and insert new records into the Users table.
 
 Language: Java
 Database: Microsoft Access
 Driver: UCanAccess 5.0.1
+
