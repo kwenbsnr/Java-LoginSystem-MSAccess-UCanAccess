@@ -30,10 +30,10 @@ Navigate to the src folder:
   cd "C:\Users\USER\Documents\EVENT DRIVEN SOURCE CODES\LoginApp\src"
 
 Step 2: Compile
-  javac -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*" LoginApp.java
+  ```javac -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*" LoginApp.java```
 
 Step 3: Run
-  java -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;." LoginApp
+  ```java -cp "../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;." LoginApp```
 
 
 ## 🗃️ Database Information
@@ -42,7 +42,7 @@ Database name: LoginDB.accdb
 
 Table name: Users
 
-ID	  Username	  Password
+**ID	  Username	  Password**
 
 1	    admin	      admin123
 
@@ -63,6 +63,7 @@ Language: Java
 Database: Microsoft Access
 
 Driver: UCanAccess 5.0.1
+
 
 
 
