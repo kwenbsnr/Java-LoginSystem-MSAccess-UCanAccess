@@ -39,13 +39,14 @@ Step 3: Run
 ## 🗃️ Database Information
 
 Database name: LoginDB.accdb
+
 Table name: Users
 
-ID	Username	Password
+ID	  Username	  Password
 
-1	  admin	    admin123
+1	    admin	      admin123
 
-2	  student	  pass123
+2	    student	    pass123
 
 
 ## 🧩 Notes
@@ -62,6 +63,7 @@ Language: Java
 Database: Microsoft Access
 
 Driver: UCanAccess 5.0.1
+
 
 
 
