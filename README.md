@@ -88,7 +88,7 @@ Table name: Users
 • To add users through Java, run the AddNewAccount.java program.
 
 
-##⚙️ Environment Setup
+## ⚙️ Environment Setup
 
 Language: Java
 
@@ -97,6 +97,7 @@ Database: Microsoft Access (.accdb)
 Driver: UCanAccess 5.0.1
 
 IDE: Visual Studio Code
+
 
 
 
