@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run LoginApp",
+      "request": "launch",
+      "mainClass": "LoginApp",
+      "cwd": "${workspaceFolder}/src",
+      "vmArgs": "-cp ../UCanAccess-5.0.1.bin/ucanaccess-5.0.1.jar;../UCanAccess-5.0.1.bin/lib/*;."
+    }
+  ]
+}
